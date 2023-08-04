@@ -1,0 +1,48 @@
+
+body{
+    background-color:whitesmoke;
+    
+}
+.login-form{
+    width: 300px;
+    border: 15px  rgb(191, 119, 225);
+    padding: 50px;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: 0 0 10px 0 #000;
+    background-color:rgb(222, 222, 222);
+    border-radius: 1rem;
+    text-align: center;
+
+}
+input[type=text],input[type=email],input[type=password]{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    border: none;
+    
+
+}
+input[type=submit]{
+    margin-top: 10px;
+    width: auto;
+    padding: 15px;
+    background-color:rgb(62, 134, 221);
+    border-color: aliceblue;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+.header{
+    text-align: center;
+    padding-top: 20px;
+}
+.heading{
+  text-align: center;
+}
+.heading_link{
+  padding-left: 70px;
+  text-decoration: none;
+}
+
