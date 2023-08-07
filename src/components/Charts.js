@@ -19,8 +19,8 @@ export default function Charts() {
             <h1>Chart </h1> 
         </div>
        {color.map(s=>
-            <PieChart width={1150} height={250}>
-            <Pie data={s.data} dataKey={s.value} nameKey={s.name} cx="50%" cy="50%" outerRadius={120} label  />
+            <PieChart width={250} height={250}>
+            <Pie data={s.data} dataKey={s.value} nameKey={s.name} cx="50%" cy="50%" outerRadius={120}   />
     
             </PieChart>
         )
