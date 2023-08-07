@@ -101,6 +101,37 @@ font-size: 1.01rem;
     text-decoration: none;
     color: white;
     }
+    /*input form*/
+.area-in{
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      color: black;
+     border-radius: 8px;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    .table-in{
+      width: 500px;
+      background-color:rgb(146, 144, 144);
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    
+    
+
+
   /*Footer css*/
   .firstgrid{
     width: auto;

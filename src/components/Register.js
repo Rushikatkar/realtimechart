@@ -8,7 +8,7 @@ export default function Register(){
      <Navbar/>   
     <div className="login-form">
         <form action="/signup" method="post">
-            <h2 class="header">Sign-up</h2>
+            <h2 className="header">Sign-up</h2>
             <label for="name">Name</label>
             <input type="text" name="name" id="name" placeholder="Name" required/>
            
