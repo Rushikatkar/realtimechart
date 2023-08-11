@@ -39,6 +39,8 @@ nav ul li a:hover{
 color: rgb(127, 127, 210);
 font-size: 1.01rem;
 }
+/*chart*/
+
 /*Login*/
 
 /*contact css*/
@@ -102,33 +104,53 @@ font-size: 1.01rem;
     color: white;
     }
     /*input form*/
+    .table-in{
+      width: 500px;
+      background-color:rgb(146, 144, 144);
+      border-radius: 8px;
+      
+    }
 .area-in{
   background-color: black;
   color: white;
-  padding: 10px;
+  padding: 30px 20px 30px 20px;
+  display: flex;
+  justify-content: center;
 }
-
+.purpletxt{
+  color: blueviolet;
+}
     table {
       border-collapse: collapse;
       width: 100%;
       color: black;
      border-radius: 8px;
     }
-    
+    tr th{
+      text-align: center;
+      }
     th, td {
       padding: 8px;
       text-align: left;
       border-bottom: 1px solid #ddd;
     }
-    .table-in{
-      width: 500px;
-      background-color:rgb(146, 144, 144);
-      border-radius: 8px;
-      display: flex;
-      justify-content: center;
+   
+    .btn-submit{
+      width: 100px;
+      height: 50px;
+      display: block;
+      margin:0 auto;
+      border-radius: 5px;
+      background: rgb(253, 253, 253);
+      font-size: 1em;
+      font-weight: 550;
+      font-family: 'Montserrat', sans-serif;
     }
-    
-    
+    .btn-submit:hover {
+      background: #315cfd;
+      color: white;
+      font-size: 1em;
+    }
     
 
 
@@ -331,6 +353,21 @@ font-size: 1.01rem;
   .rightmain img{
     width:100%;
     height: auto;
+  }
+
+  .area-in{
+    background-color: black;
+    color: white;
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .table-in{
+    width: 350px;
+    background-color:rgb(146, 144, 144);
+    border-radius: 8px;
+    
   }
   
   }

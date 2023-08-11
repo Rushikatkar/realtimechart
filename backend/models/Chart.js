@@ -1,12 +1,8 @@
 const mongoose=require('mongoose');
-const { Schema } = mongoose;
-const ChartSchema= new Schema({
-    name:{
-        type:String,
-        reuired:true
-    },
-    value:{
-        type: Number
-    }
+
+const chartSchema= new mongoose.Schema({
+    name: String,
+    value:Number,
 });
-module.exports=mongoose.Model('Chart',ChartSchema);
+const UserModel=mongoose.model("charts",chartSchema);
+module.exports=UserModel
